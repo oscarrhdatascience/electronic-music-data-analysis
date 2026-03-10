@@ -205,23 +205,22 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
 # -----------------------------
 # Data Science project files
 # -----------------------------
 
-# Raw datasets (large files)
+# Data files
 data/raw/*
-
-# Processed datasets
 data/processed/*
 
-# Ignore common dataset formats
+# Dataset formats
 *.csv
 *.tsv
 *.parquet
 *.zip
 *.gz
 
-# But keep folder structure
+# Keep folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
