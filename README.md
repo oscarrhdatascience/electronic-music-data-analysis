@@ -96,20 +96,19 @@ The analysis was performed using:
 ---
 
 # Project Structure
-'''music-audio-features-eda
+music-audio-features-eda
 │
 ├── data
-│   ├── raw
-│   └── processed
+│ ├── raw
+│ └── processed
 │
 ├── notebooks
-│   └── 01_audio_features_eda.ipynb
+│ └── 01_audio_features_eda.ipynb
 │
 ├── src
 │
 ├── requirements.txt
 └── README.md
-'''
 ---
 
 # Future Work
