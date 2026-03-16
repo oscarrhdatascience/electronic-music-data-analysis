@@ -139,6 +139,26 @@ notebooks/03_genre_audio_analysis.ipynb
 
 ---
 
+## 04 — Genre Feature Space and Clustering
+
+This notebook explores the structure of electronic music in a high-dimensional feature space using dimensionality reduction and clustering techniques.
+
+Main steps include:
+
+* feature standardization
+* Principal Component Analysis (PCA)
+* visualization of tracks in a reduced feature space
+* interpretation of musical dimensions captured by PCA
+* K-Means clustering of tracks
+* analysis of the relationship between clusters and music genres
+
+The results reveal that clusters do not strictly correspond to individual genres but rather to **underlying musical characteristics** such as energy level, instrumental content, and vocal presence.
+
+Notebook:
+
+notebooks/04_genre_feature_space_and_clustering.ipynb
+
+---
 # Analytical Dataset
 
 The processed dataset contains the following types of variables:
@@ -190,6 +210,7 @@ The project is implemented using:
 * Matplotlib
 * Seaborn
 * Jupyter Notebook
+* Scikit-learn
 
 ---
 
@@ -205,6 +226,8 @@ electronic-music-data-analysis
 ├── notebooks
 │   ├── 01_audio_features_eda.ipynb
 │   └── 02_data_integration_and_feature_engineering.ipynb
+│   └── 03_genre_audio_analysis.ipynb
+│   └── 04_genre_feature_space_and_clustering.ipynb
 │
 ├── src
 │
@@ -216,13 +239,13 @@ electronic-music-data-analysis
 
 # Future Work
 
-The next stages of the project will include:
+Possible extensions of this project include:
 
-* Genre distribution analysis
-* Musical style comparison across genres
-* Clustering tracks based on audio features
-* Identifying musical patterns using unsupervised learning techniques
-* Building predictive models using audio features
+* deeper analysis of cluster musical characteristics
+* genre classification models using audio features
+* recommendation systems based on musical similarity
+* temporal analysis of genre evolution
+* exploration of additional unsupervised learning techniques
 
 ---
 
